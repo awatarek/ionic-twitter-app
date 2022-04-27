@@ -1,0 +1,8 @@
+{
+  "name": "TwitterNoob",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "7d955d74"
+}
