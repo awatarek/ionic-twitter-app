@@ -1,17 +1,27 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="spacer"></div>
+  <div class="card-style" *ngFor="let user of users" [@inOutAnimation]>
+    <div class="card-photo"><img [src]="user.photo" alt=""></div>
+    <div class="card-content">
+      <div>
+        {{user.name}} <span class="nickname">@{{user.nick}}</span>
+      </div>
+      <div>
+        <p>{{user.text}}</p>
+      </div>
+    </div>
+    <div></div>
+    <div class="card-community">
+      <div>
+        <ion-icon name="chatbox-outline"></ion-icon> {{user.commentNumber}}
+      </div>
+      <div>
+        <ion-icon name="share-social-outline"></ion-icon> {{user.shareNumber}}
+      </div>
+      <div>
+        <ion-icon name="heart-outline"></ion-icon> {{user.likeNumber}}
+      </div>
+    </div>
+  </div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
 </ion-content>

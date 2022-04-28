@@ -31,7 +31,9 @@
                 "output": "./svg"
               }
             ],
-            "styles": ["src/theme/variables.scss", "src/global.scss"],
+            "styles": ["src/theme/variables.scss", "src/global.scss",              "./node_modules/primeicons/primeicons.css",
+              "./node_modules/primeng/resources/themes/saga-blue/theme.css",
+              "./node_modules/primeng/resources/primeng.min.css"],
             "scripts": [],
             "aot": false,
             "vendorChunk": true,
@@ -147,6 +149,7 @@
     }
   },
   "cli": {
+    "analytics": "8e5264ec-0e07-4632-a636-3bca38105c65",
     "defaultCollection": "@ionic/angular-toolkit"
   },
   "schematics": {

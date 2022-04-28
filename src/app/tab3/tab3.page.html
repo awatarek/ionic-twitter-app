@@ -1,17 +1,12 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="spacer"></div>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-segment (ionChange)="segmentChanged($event)" value="all">
+    <ion-segment-button value="all">
+      <ion-label>Wszystko</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="adnotatnios">
+      <ion-label>Wzmianki</ion-label>
+    </ion-segment-button>
+  </ion-segment>
 </ion-content>

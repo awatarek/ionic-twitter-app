@@ -1,1 +1,106 @@
 
+
+.header-style{
+    background-color: #16202A;
+
+    .header-content{
+        display: grid;
+        grid-template-columns: .1fr 1fr .1fr;
+    }
+
+    .profile-image{
+        width: 32px;
+        height: 32px;
+        border-radius: 50px;
+        text-align: center;
+        margin: auto;
+        vertical-align: middle;
+    }
+    
+    .section-name{
+        font-size: 14px;
+        font-weight: 500;
+        margin: 14px;
+        display : inline-block;
+        vertical-align : middle;
+    }
+
+    .section-input{
+        border: 0;
+        font-size: 12px;
+        height: 24px;
+        width: 80%;
+        text-align: center;
+        border-radius: 10px;
+        margin: 12px auto;
+        background-color: #10171F;
+        color: #1f2830;
+        outline: 1px solid #28303D;
+
+        &:focus{
+            outline: 1px solid rgb(0, 195, 255);
+            color: rgb(0, 195, 255);
+            content: '';
+        }
+    }
+}
+
+.menu-style{
+    --width: 80vw;
+
+    img{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 5px;
+        border-radius: 100px;
+    }
+
+    .profile-name{
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        font-size: 1rem;
+        margin-top: 2px;
+    }
+
+    .profile-nick{
+        color: #7f8e9c;
+        font-size: 1rem;
+        margin-top: 2px;
+    }
+
+    .observers{
+        width: 100%;
+        margin-top: 10px;
+        font-size: .9rem;
+
+        .observers-name{
+            color: #7f8e9c;
+            font-size: .8rem;
+            font-weight: 500;
+        }
+    }
+
+    ion-header{
+        padding: 20px;
+    }
+
+    ion-content{
+        div{
+            padding: 15px;
+            font-size: 16px;
+            font-weight: 200;
+            line-height: 16px;
+            
+            ion-icon{
+                margin-top: 10px;
+                margin-right: 10px;
+                font-size: 22px;
+                transform: translateY(5px);
+            }
+        }
+
+        hr{
+            background-color: rgba(143, 143, 143, 0.253)
+        }
+    }
+}

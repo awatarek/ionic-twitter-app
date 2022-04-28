@@ -1,6 +1,6 @@
 {
-	"appId": "io.ionic.starter",
-	"appName": "TwitterNoob",
-	"webDir": "www",
-	"bundledWebRuntime": false
+  "appId": "pl.twitternoob.app",
+  "appName": "TwitterNoob",
+  "webDir": "www",
+  "bundledWebRuntime": false
 }

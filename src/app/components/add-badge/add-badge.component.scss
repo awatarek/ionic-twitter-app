@@ -1,0 +1,38 @@
+.add-fab{
+    color: white;
+
+    
+    svg{
+        color: white;
+        width: 50%;
+    }
+}
+
+.fab-fixed{
+    position: fixed;
+    bottom: 60px;
+    right: 0px;
+}
+
+.r-jwli3a, .add-icon, .mail-icon{
+    color: white;
+}
+
+.add-icon{
+    font-size: 32px;
+    font: bold;
+}
+
+.mail-icon{
+    font-size: 24px;
+    font: bold;
+}
+
+.add-icon-plus{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 8px;
+    color: white;
+    background-color: #1D9BF0;
+}

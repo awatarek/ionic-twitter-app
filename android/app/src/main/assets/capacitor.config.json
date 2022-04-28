@@ -1,0 +1,6 @@
+{
+	"appId": "pl.twitternoob.app",
+	"appName": "TwitterNoob",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

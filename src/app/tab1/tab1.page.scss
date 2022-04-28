@@ -1,0 +1,56 @@
+.spacer{
+    margin-top: 60px;
+}
+
+.card-style{
+    margin: 10px;
+    padding: 10px;
+    font: 1em sans-serif;
+    display: grid;
+    grid-template-columns: 0.1fr 10fr;
+    border-bottom: 1px solid rgb(80, 80, 80);
+
+    .card-content{
+        .nickname{
+            color: #acb3bb;
+            font-size: 0.8em;
+        }
+
+        p{
+            color: rgb(226, 226, 226);
+            font-weight: 100;
+            font-size: .9rem;
+            margin: .5rem 0;
+        }
+    }
+
+    .card-photo{
+        height: 56px;
+        width: 56px;
+        img{
+            width: 42px;
+            height: 42px;
+            border-radius: 30px;
+        }
+    }
+
+    .card-community{
+        div{
+            padding: 2px;
+
+            ion-icon{
+                margin-right: 5px;
+                transform: translateY(2.5px);
+            }
+        }
+
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: left;
+        margin: auto;
+        font: 1em sans-serif;
+        line-height: 15px;
+        color: rgb(95, 95, 95);
+    }
+}
