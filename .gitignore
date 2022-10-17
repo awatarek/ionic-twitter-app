@@ -30,3 +30,6 @@ npm-debug.log*
 /platforms
 /plugins
 /www
+/twitter-noob-win32-x64
+/electron
+/ios
